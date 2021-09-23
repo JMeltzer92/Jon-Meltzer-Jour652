@@ -1,3 +1,6 @@
+/* Styles for my Resume */
+
+/* General Font Style */
 body {
   font-family: 'open sans', arial, sans-serif;
   color: #444;
@@ -5,6 +8,7 @@ body {
   font-weight: 400;
 }
 
+/* My Name */
 h1 {
   font-size: 3em;
   color: #33485e;
@@ -12,6 +16,7 @@ h1 {
   text-transform: uppercase;
 }
 
+/* Section Headers  */
 h2 {
   font-size: 1.5em;
   background-color: #33485e;
@@ -19,15 +24,18 @@ h2 {
   text-transform: uppercase;
 }
 
+/* Job Titles */
 h3 {
   font-size: 1.5em;
   font-weight: 600;
 }
 
+/* Job Companies */
 h4 {
   font-size: 1.5em;
 }
 
+/* Job Dates */
 h5 {
   font-style: italic;
 }
