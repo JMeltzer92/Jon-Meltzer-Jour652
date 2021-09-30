@@ -9,11 +9,15 @@ body {
 }
 
 /* My Name */
-h1 {
+#name {
   font-size: 3em;
   color: #33485e;
   text-align: center;
   text-transform: uppercase;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 /* Title */
@@ -25,26 +29,46 @@ h1 {
 
 
 /* Section Headers  */
-h2 {
+.sectionheader {
   font-size: 1.5em;
   background-color: #33485e;
   color: white;
   text-transform: uppercase;
+  margin: 20px 10px 0px 0px;
+  width: 70%;
+  min-width: 300px;
 }
 
 /* Job Titles */
-h3 {
-  font-size: 1.5em;
+.jobtitle {
+  font-size: 1.25em;
   font-weight: 600;
 }
 
 /* Job Companies */
-h4 {
-  font-size: 1.5em;
+.organization {
+  font-size: 1.25em;
   font-weight: 400;
 }
 
 /* Job Dates */
-h5 {
+.date {
   font-style: italic;
+  margin: 2px 0px;
+}
+
+/* Descriptive Text */
+.description {
+  margin: 10px 0px;
+}
+
+/* Contact Info */
+.menu {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.menu > li {
+  display: inline;
 }
