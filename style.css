@@ -37,7 +37,8 @@ body {
   background-color: #33485e;
   color: white;
   text-transform: uppercase;
-  margin: 20px 10px 0px 0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   width: 70%;
   min-width: 300px;
 }
