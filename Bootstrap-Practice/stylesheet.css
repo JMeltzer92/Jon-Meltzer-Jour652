@@ -1,0 +1,8 @@
+.col {
+  text-align: center;
+}
+
+.col img {
+  width: 100%;
+  max-width: 500px;
+}
