@@ -3,3 +3,87 @@
   max-width: 900px;
   margin: 0 auto;
 }
+
+#masthead {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#headline {
+  color: #9B0404;
+  font-variant-caps: small-caps;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Helvetica', sans-serif;
+  border-bottom: solid 3px #9B0404;
+  padding-bottom: 10px;
+}
+
+#byline {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+h4{
+  font-size: 18px;
+  font-family: 'Helvetica', sans-serif;
+}
+
+#graphictext {
+  color: gray;
+  font-size: 14px;
+}
+
+p {
+  font-family: 'Georgia', serif;
+  font-size: 13px;
+}
+
+img {
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+blockquote {
+  margin: 0 auto;
+  width: 50%;
+  border: dotted 1px #9B0404;
+}
+
+blockquote p {
+  font-size: 20px;
+  font-family: 'Helvetica', sans-serif;
+  color: #9B0404;
+  text-align: center;
+  font-weight: 600;
+}
+
+figcaption {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-size: 12px;
+  color: gray;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 15px;
+}
+
+a {
+  color: #9B0404;
+}
+
+#readmore h4 {
+  font-variant-caps: small-caps;
+  font-size: 25px;
+}
