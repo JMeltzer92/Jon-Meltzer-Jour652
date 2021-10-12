@@ -142,12 +142,20 @@ h5 {
   margin: 0 auto;
 }
 
+/* NavBar Styles */
+
 .navbar {
   max-height: 50px;
   padding-left: 1em;
   padding-right: 1em;
   border-bottom: solid 1px brown;
 }
+
+.dropdown-menu {
+  background-color: #49666675;
+}
+
+/* End NavBar Styles */
 
 .footer {
   background-color: #B2E6F3;
