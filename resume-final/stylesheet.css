@@ -1,0 +1,122 @@
+body {
+  background-color: #B2E6F1;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 700;
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #4E6641;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #66514F;
+  font-size: 1.25em;
+}
+
+#profile-image {
+  width: 60%;
+  border-radius: 25px;
+}
+
+.section-header {
+  margin: 0 auto;
+  margin-top: 20px;
+  border-style: solid;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  padding-top: 10px;
+  border-color: white;
+}
+
+.section-header h1 {
+  font-size: 3em;
+  color: #66514F;
+  font-variant-caps: small-caps;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.row {
+  align-items: center;
+}
+
+.jobtitle {
+  text-align: right;
+  text-transform: uppercase;
+  color: #66514F;
+}
+
+.jobtitle h4 {
+  font-size: 32px;
+}
+
+.jobdates h5 {
+  text-align: center;
+  color: #676E4D;
+}
+
+.company {
+  border-bottom: 1px solid #676E4D;
+  padding-bottom: 5px;
+}
+
+.jobdesc p {
+  text-align: justify;
+  font-size: 15px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.btn {
+  background-color: #676E4D;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  width: 200px;
+}
+
+.testimonials {
+  text-align: center;
+}
+
+.education {
+  text-align: right;
+  text-transform: uppercase;
+  color: #66514F;
+}
+
+.education h4 {
+  font-size: 32px;
+}
+
+h5 {
+  text-align: center;
+  color: #676E4D;
+  text-transform: none;
+}
+
+.degree {
+  border-bottom: 1px solid #676E4D;
+  padding-bottom: 5px;
+}
+
+.container {
+  margin: 0 auto;
+}
