@@ -1,6 +1,17 @@
-#banner {
+body {
+  background-color: #B5DE5240;
+}
+
+#banner img {
   margin: 0 auto;
   text-align: center;
+  max-width: 100%;
+  padding-bottom: 0px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
 
 h1 {
@@ -8,21 +19,34 @@ h1 {
   font-size: 50px;
   font-weight: 700;
   text-align: right;
+  color: #EB4E34;
 }
 
-.lead {
+.byline {
   color: gray;
   text-align: right;
 }
 
 h2 {
   font-family: 'Helvetica','Arial',sans-serif;
-  font-size: 18px;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #DE813C;
+  font-weight: 500;
 }
 
 p {
   font-family: 'Helvetica','Arial',sans-serif;
   font-size: 12px;
+}
+
+figure {
+  text-align: center;
+}
+
+.bodypic img {
+  max-width: 75%;
+  margin: 0 auto;
 }
 
 figcaption {
@@ -31,7 +55,49 @@ figcaption {
   font-size: 10px;
 }
 
-.container {
+blockquote {
   margin: 0 auto;
-  width: 100%;
+  max-width: 500px;
+  border: 2px dotted #DE813C;
+  border-radius: 10px;
+}
+
+blockquote p {
+  font-size: 28px;
+  color: #F5A436;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+#continue {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  text-transform: uppercase;
+  color: #EBB034;
+}
+
+li a:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+  .col-10 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  h1 {
+    text-align: center;
+  }
+  .byline {
+    text-align: center;
+  }
 }
