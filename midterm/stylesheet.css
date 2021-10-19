@@ -1,0 +1,20 @@
+h1 {
+  font-family: 'Helvetica','Arial',sans-serif;
+  font-size: 26px;
+  font-variant: small-caps;
+}
+
+h2 {
+  font-family: 'Helvetica','Arial',sans-serif;
+  font-size: 18px;
+}
+
+p {
+  font-family: 'Helvetica','Arial',sans-serif;
+  font-size: 12px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
