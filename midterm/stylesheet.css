@@ -1,7 +1,18 @@
+#banner {
+  margin: 0 auto;
+  text-align: center;
+}
+
 h1 {
   font-family: 'Helvetica','Arial',sans-serif;
-  font-size: 26px;
-  font-variant: small-caps;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.lead {
+  color: gray;
+  text-align: right;
 }
 
 h2 {
@@ -12,6 +23,12 @@ h2 {
 p {
   font-family: 'Helvetica','Arial',sans-serif;
   font-size: 12px;
+}
+
+figcaption {
+  text-align: center;
+  color: gray;
+  font-size: 10px;
 }
 
 .container {
