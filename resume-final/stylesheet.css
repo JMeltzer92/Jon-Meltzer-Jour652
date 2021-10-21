@@ -171,15 +171,39 @@ h5 {
 }
 
 .dropdown-menu {
-  background-color: #49666675;
+  background-color: #496666;
+}
+
+.dropdown-menu a {
+  color: white;
 }
 
 /* End NavBar Styles */
 
-.footer {
-  background-color: #B2E6F3;
-}
-
 .container {
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    text-align: center;
+  }
+
+  .jobtitle h4 {
+    text-align: center;
+  }
+
+  .education h4 {
+    text-align: center;
+  }
+
+  .header-image {
+    text-align: center;
+  }
+
+  img {
+    margin: 0 auto;
+    text-align: center;
+  }
+
 }
