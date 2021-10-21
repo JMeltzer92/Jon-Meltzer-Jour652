@@ -1,5 +1,5 @@
 body {
-  background-color: #B5DE5240;
+  background-color: #B5DE5225;
 }
 
 #banner img {
@@ -7,11 +7,21 @@ body {
   text-align: center;
   max-width: 100%;
   padding-bottom: 0px;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
 }
 
 .container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
+}
+
+/* Hero Header */
+
+.hero {
+  padding: 0px;
 }
 
 h1 {
@@ -25,6 +35,12 @@ h1 {
 .byline {
   color: gray;
   text-align: right;
+}
+
+/* Body Style */
+
+img {
+  border-radius: 10px;
 }
 
 h2 {
@@ -73,6 +89,15 @@ blockquote p {
 
 #continue {
   text-align: center;
+  padding-top: 10px;
+}
+
+.readmore {
+  background-color: #B5DE5250;
+  border: 2px solid #F5A436;
+  border-radius: 25px;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 ul {
@@ -88,6 +113,8 @@ li {
 li a:hover {
   color: black;
 }
+
+/* Adaptive Styling */
 
 @media only screen and (max-width: 1000px) {
   .col-10 {
