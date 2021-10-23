@@ -68,6 +68,18 @@ a {
   border-radius: 25px;
 }
 
+.outermural {
+  overflow: hidden;
+  position: relative;
+}
+.innermmural {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: -50px;
+  top: 50px;
+}
+
 /* My Work Styles & Img Formatting */
 
 .workimg {
@@ -155,6 +167,9 @@ h5 {
 
 /* Skills */
 
+.skills li {
+  list-style-image: url(https://raw.githubusercontent.com/JMeltzer92/Jon-Meltzer-Jour652/main/resume-final/images/Mountain1);
+
 .skillentry p {
   text-align: left;
 }
@@ -182,6 +197,7 @@ h5 {
 
 .container {
   margin: 0 auto;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 1000px) {
