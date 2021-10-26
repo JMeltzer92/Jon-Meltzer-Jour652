@@ -11,6 +11,13 @@ h1 {
   text-align: left;
   font-family: 'Josefin Sans', sans-serif;
   color: #4E6641;
+  align-items: center;
+}
+
+/* Header Icon Hack */
+
+h1 img {
+  margin-bottom: 12px;
 }
 
 h2 {
@@ -19,8 +26,8 @@ h2 {
   text-align: center;
   color: white;
   text-transform: uppercase;
-  border-top: 3px 0px solid white;
-  border-bottom: 3px 0px solid white;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
 }
 
 p {
@@ -78,6 +85,7 @@ a {
 #mission {
   max-width: 75%;
   margin: 0 auto;
+  padding-top: 10px;
 }
 
 .outermural {
@@ -110,8 +118,6 @@ a {
   opacity: 0.5;
   transition: opacity 0.5s;
 }
-
-
 
 /* Work Experience - Creative & Athletic */
 
@@ -263,7 +269,7 @@ li span{
   max-width: 100%;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1007px) {
   h1 {
     text-align: center;
   }
@@ -285,4 +291,7 @@ li span{
     text-align: center;
   }
 
+  h1 img {
+    display: none;
+  }
 }
