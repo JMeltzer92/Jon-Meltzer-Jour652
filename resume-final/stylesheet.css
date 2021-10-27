@@ -10,7 +10,7 @@ h1 {
   font-weight: 700;
   text-align: left;
   font-family: 'Josefin Sans', sans-serif;
-  color: #4E6641;
+  color: #8EB37B;
   align-items: center;
 }
 
@@ -69,6 +69,7 @@ a {
 
 #myname {
   text-shadow: 2px 2px 4px black;
+  margin-left: 1em;
 }
 
 #profile-image {
@@ -133,11 +134,11 @@ a {
 
 .jobdates h5 {
   text-align: center;
-  color: #676E4D;
+  color: #8EB37B;
 }
 
 .company {
-  border-bottom: 1px solid #676E4D;
+  border-bottom: 1px solid #8EB37B;
   padding-bottom: 5px;
 }
 
@@ -149,15 +150,18 @@ a {
 /* Button Styles */
 
 .btn {
-  background-color: #676E4D;
+  background-color: #8EB37B;
   font-family: 'Josefin Sans', sans-serif;
   color: white;
+  font-size: 28px;
+  font-variant: small-caps;
   width: 200px;
+  height: 100px;
   border: 0;
 }
 
 .btn:hover {
-  background-color: #676E4D70;
+  background-color: #8EB37B70;
 }
 
 .testimonials {
@@ -178,12 +182,12 @@ a {
 
 h5 {
   text-align: center;
-  color: #676E4D;
+  color: #8EB37B;
   text-transform: none;
 }
 
 .degree {
-  border-bottom: 1px solid #676E4D;
+  border-bottom: 1px solid #8EB37B;
   padding-bottom: 5px;
 }
 
@@ -223,13 +227,13 @@ li span{
 
 .bi {
   font-size: 3em;
-  color: #676E4D;
+  color: #8EB37B;
 }
 
 .contactentry {
   text-align: center;
   padding: 1em;
-  border: 1px solid #676E4D50;
+  border: 1px solid #8EB37B50;
   border-radius: 0.5em;
   margin-top: 0.5em;
 }
@@ -255,7 +259,7 @@ li span{
 }
 
 .dropdown-menu {
-  background-color: #496666;
+  background-color: #4E6641;
 }
 
 .dropdown-menu a {
@@ -272,6 +276,10 @@ li span{
 @media only screen and (max-width: 1007px) {
   h1 {
     text-align: center;
+  }
+
+  #myname {
+    margin-left: 0px;
   }
 
   .jobtitle h4 {
