@@ -1,0 +1,80 @@
+/* General Spacing o7 */
+.body {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Headline / Hero */
+.hero {
+  max-width: 75%;
+  background-image: url("JMeltzer92.github.io/Jon-Meltzer-Jour652/climate-crisis-story/JusticeGeorgie.jpg");
+}
+
+.headline {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  color: red;
+  size: 3em;
+}
+
+.headline-sub {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 800;
+}
+
+#byline {
+  text-align: right;
+  color: gray;
+  font-style: italic;
+}
+
+/* Images */
+
+figcaption {
+  text-align: center;
+  color: gray;
+  font-size: .75em;
+  font-style: italic;
+  margin: 5px;
+}
+
+figure {
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Chapters */
+
+.chapter {
+  margin: 0 auto;
+  max-width: 70%;
+  text-align: justify; 
+}
+
+.chap-head {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+/* Columns */
+
+.col-md-4 {
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  text-align: right;
+  background-color: black;
+}
