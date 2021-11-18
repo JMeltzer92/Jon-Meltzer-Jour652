@@ -5,27 +5,46 @@
 }
 
 /* Headline / Hero */
+
 .hero {
-  max-width: 75%;
-  background-image: url("JMeltzer92.github.io/Jon-Meltzer-Jour652/climate-crisis-story/JusticeGeorgie.jpg");
+  max-width: 110%;
+}
+
+.bg-image {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.topper-text {
+  background-color: #00000050;
+  padding-top: 10px;
+  border: solid white 3px;
 }
 
 .headline {
   font-family: 'Special Elite', cursive;
   text-align: center;
   color: red;
-  size: 3em;
+  font-size: 100px;
 }
 
 .headline-sub {
   font-family: Helvetica, sans-serif;
   text-align: center;
   font-weight: 800;
+  font-size: 1.5em;
+  color: orange;
 }
 
 #byline {
-  text-align: right;
-  color: gray;
+  text-align: center;
+  color: white;
   font-style: italic;
 }
 
@@ -46,20 +65,20 @@ figure {
 }
 
 img {
-  max-width: 100%;
+  max-width: 100% !important;
 }
 
 /* Chapters */
 
 .chapter {
   margin: 0 auto;
-  max-width: 70%;
+  max-width: 40%;
   text-align: justify; 
 }
 
 .chap-head {
   text-align: center;
-  padding-bottom: 1em;
+  padding: 0.25em;
 }
 
 p {
@@ -77,4 +96,12 @@ p {
 footer {
   text-align: right;
   background-color: black;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width:768px) {
+  .chapter {
+    max-width: 100%;
+  }
 }
