@@ -28,7 +28,7 @@
 }
 
 .headline {
-  font-family: 'Special Elite', cursive;
+  font-family: 'Special Elite', serif;
   text-align: center;
   color: red;
   font-size: 75px;
@@ -50,6 +50,10 @@
   text-align: center;
   color: white;
   font-style: italic;
+}
+
+#ch1 {
+  z-index: -1;
 }
 
 /* Images */
@@ -80,13 +84,23 @@ img {
   text-align: justify; 
 }
 
+.chap-topper {
+  position: relative;
+}
+
 .chap-head {
-  text-align: center;
-  padding: 0.25em;
+  text-align: left;
+  position:absolute;
+  bottom: 32px;
+  left: 16px;
+  font-family: 'Special Elite', serif;
+  color: red;
+  filter: drop-shadow(2px 2px 1px black);
 }
 
 p {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Helvetica', sans-serif;
+  text-align: justify;
 }
 
 /* Columns */
@@ -104,7 +118,19 @@ footer {
 
 /* Responsive Design */
 
+#wcicon {
+  display: none;
+}
+
 @media screen and (max-width:989px) {
+  #wclogo {
+    display: none;
+  }
+
+  #wcicon {
+    display: block;
+  }
+
   .chapter {
     max-width: 100%;
   }
@@ -123,5 +149,14 @@ footer {
 
   #first-cap {
     color: gray;
+  }
+
+  .ch6head {
+    position: absolute;
+    bottom: 48px;
+  }
+
+  #topper-credit {
+    display: none;
   }
 }
