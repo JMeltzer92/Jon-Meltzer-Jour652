@@ -161,6 +161,11 @@ h3 {
   color: gray;
 }
 
+/* Graphics */
+iframe {
+  margin: 1em;
+}
+
 /* Link Styles */
 
 a {
