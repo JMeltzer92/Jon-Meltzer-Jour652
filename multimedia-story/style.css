@@ -1,0 +1,117 @@
+/* General Spacing o7 */
+.body {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Headline / Hero */
+.hero {
+  max-width: 75%;
+}
+
+h1 {
+  font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+  font-size: 55px;
+  text-align: justify;
+  color: #FDB003;
+  text-transform: capitalize;
+}
+
+#byline {
+  text-align: right;
+  color: gray;
+  font-style: italic;
+}
+
+/* Images */
+
+figcaption {
+  text-align: center;
+  color: gray;
+  font-size: 18px;
+  font-style: italic;
+  margin: 5px;
+}
+
+figure {
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Chapters */
+
+.chapter {
+  margin: 3em;
+}
+
+p {
+  width: 75%;
+  margin: 0 auto;
+  font-size: 22px;
+  text-align: justify;
+  padding: 22px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  margin-left: 200px;
+  padding: 22px 0px;
+  font-size: 44px;
+  color: #E34702;
+  font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+/* Drop Caps Styles */
+
+.has-dropcap:first-child:first-letter {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FB2A03;
+  float: left;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+/* Columns */
+
+.col-md-4 {
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  text-align: right;
+  background-color: black;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width:989px) {
+  #wclogo {
+    display: none;
+  }
+
+  #wcicon {
+    display: block;
+  }
+
+  p {
+    width: 100%;
+    padding: 11px 0px;
+  }
+
+  h2 {
+    font-size: 33px;
+    padding: 11px 0px;
+  }
+
+}
