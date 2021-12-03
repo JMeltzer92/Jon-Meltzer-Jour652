@@ -7,21 +7,28 @@
 /* Headline / Hero */
 
 #bg-img-container {
-  background-image: url(https://raw.githubusercontent.com/JMeltzer92/Jon-Meltzer-Jour652/main/multimedia-story/images/group-of-fists.jpg);
+  background-image: url(https://raw.githubusercontent.com/JMeltzer92/Jon-Meltzer-Jour652/main/multimedia-story/images/group-of-fists-2.png);
   position: relative;
+}
+
+#title-text-container {
+  background-color: #80808040;
+  border-radius: 25px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .title {
   margin: 0 auto;
-  font-size: 66px;
+  font-size: 4em;
   font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
   color: #FB2A03;
   text-transform: uppercase;
-  text-align: center;
-  margin-top: 16px;
-  background-color: #80808040;
-  border-radius: 25px;
-
+  text-align: left;
+  padding-top: 32px;
+  padding-left: 32px;
 }
 
 .hero {
@@ -30,14 +37,14 @@
 
 h1 {
   font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
-  font-size: 33px;
+  font-size: 3em;
   text-align: right;
   color: #FDB003;
 }
 
 #byline {
   text-align: right;
-  color: gray;
+  color: white;
   font-style: italic;
   font-size: 20px;
 }
