@@ -22,7 +22,7 @@
 
 .title {
   margin: 0 auto;
-  font-size: 66px;
+  font-size: 4em;
   font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
   color: #FB2A03;
   text-transform: uppercase;
@@ -36,7 +36,7 @@
 
 .headline {
   font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
-  font-size: 33px;
+  font-size: 2em;
   text-align: right;
   color: white;
 }
@@ -46,6 +46,10 @@
   color: white;
   font-style: italic;
   font-size: 20px;
+}
+
+.main {
+  color: rgb(190, 190, 190);
 }
 
 /* Pull Quotes */
@@ -159,14 +163,17 @@ footer {
     padding: 11px 0px;
   }
 
-}
-
-@media screen and (max-width: 1300){
-  .bg-img-container {
-    display: none;
+  .headline {
+    text-align: center;
   }
 
-  .bg-image img {
-    display: none;
+  .titleimg {
+    margin: 0 auto;
+    align-items: center;
+    width: 100%;
+  }
+
+  #bg-img-container {
+    background-image: none;
   }
 }
