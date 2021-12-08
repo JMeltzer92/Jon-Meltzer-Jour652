@@ -22,24 +22,23 @@
 
 .title {
   margin: 0 auto;
-  font-size: 4em;
+  font-size: 66px;
   font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
   color: #FB2A03;
   text-transform: uppercase;
-  text-align: left;
-  padding-top: 32px;
-  padding-left: 32px;
+  text-align: center;
+  margin-top: 16px;
 }
 
 .hero {
   max-width: 85%;
 }
 
-h1 {
+.headline {
   font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
-  font-size: 3em;
+  font-size: 33px;
   text-align: right;
-  color: #FDB003;
+  color: white;
 }
 
 #byline {
@@ -47,6 +46,14 @@ h1 {
   color: white;
   font-style: italic;
   font-size: 20px;
+}
+
+/* Pull Quotes */
+
+h4 {
+  font-size: 44px;
+  color: orange;
+  margin: 0 auto;
 }
 
 /* Images */
