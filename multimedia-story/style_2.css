@@ -148,7 +148,7 @@ h2 {
   font-size: 44px;
   color: #E34702;
   font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 /* Drop Caps Styles */
@@ -207,7 +207,9 @@ footer {
 
   h2 {
     padding: 11px 0px;
-    margin-left: 50px;
+    margin-left: 0px;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .parallax {

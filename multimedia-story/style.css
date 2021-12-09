@@ -4,52 +4,99 @@
   max-width: 100%;
 }
 
-/* Headline / Hero */
-
-#bg-img-container {
-  background-image: url(https://raw.githubusercontent.com/JMeltzer92/Jon-Meltzer-Jour652/main/multimedia-story/images/group-of-fists-2.png);
-  position: relative;
+/* NavBar */
+.navbar {
+    background-color: #f31d0d;
 }
 
-#title-text-container {
-  background-color: #80808040;
-  border-radius: 25px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  margin-left: 16px;
-  margin-right: 16px;
+/* Parallax Topper */
+
+.parallax {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("images/group-of-fists.png");
+    height: 1000px;
+}
+
+#decoration {
+    top: 5%;
+    right: 50%;
+    position: absolute;
+}
+
+#striketober {
+    position: absolute;
+    font-family: 'Special Elite', serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 4em;
 }
 
 .title {
-  margin: 0 auto;
-  font-size: 4em;
-  font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
-  color: #FB2A03;
-  text-transform: uppercase;
-  text-align: center;
-  margin-top: 16px;
+    height: 500px;
+    background-color: #FB2A03;
+    color: white;
+    height: 100%;
+    padding: 50px 80px;
+    font-family: 'Special Elite', serif;
+    text-align: center;
+    text-transform: uppercase;
 }
 
-.hero {
-  max-width: 85%;
+.title h1 {
+    font-size: 5em;
 }
 
-.headline {
-  font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
-  font-size: 2em;
-  text-align: right;
-  color: white;
+.bgimg-2 {
+    background-image: url("images/amc-strike.png");
+    height: 1000px;
 }
 
 #byline {
-  text-align: right;
-  color: white;
-  font-style: italic;
-  font-size: 20px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    max-width: 700px;
+    background-color: #80808099;
+    padding: 5px 20px;
+    text-align: right;
 }
 
-.main {
-  color: rgb(190, 190, 190);
+#by-text {
+    color:white;
+    font-family: 'Special Elite', serif;
+    font-size: 1.75em;
+}
+
+#caption {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    max-width: 600px;
+    background-color: #80808099;
+    padding: 5px 20px;
+}
+
+#cap-text {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+}
+
+.subtitle {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: #E34702;
+    margin-top: 50px;
+    padding-bottom: 0px;
+    font-size: 4em;
+    border-bottom: 3px solid #808080;
 }
 
 /* Pull Quotes */
@@ -101,7 +148,7 @@ h2 {
   font-size: 44px;
   color: #E34702;
   font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 /* Drop Caps Styles */
@@ -144,7 +191,7 @@ footer {
 
 /* Responsive Design */
 
-@media screen and (max-width:989px) {
+@media only screen and (max-width:1366px) {
   #wclogo {
     display: none;
   }
@@ -159,21 +206,13 @@ footer {
   }
 
   h2 {
-    font-size: 33px;
     padding: 11px 0px;
-  }
-
-  .headline {
+    margin-left: 0px;
+    margin: 0 auto;
     text-align: center;
   }
 
-  .titleimg {
-    margin: 0 auto;
-    align-items: center;
-    width: 100%;
-  }
-
-  #bg-img-container {
-    background-image: none;
+  .parallax {
+    background-attachment: scroll;
   }
 }
